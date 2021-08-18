@@ -14,6 +14,8 @@ txt.raw <- read.table("dul.txt", header=F, sep = "\t", quote=""
 
 # looking at raw data
 View(txt.raw)
+
+# change column name
 colnames(txt.raw)[1] <- "Text"
 View(txt.raw)
 
